@@ -1,0 +1,30 @@
+        .img-container img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        
+        .img-container .btn {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: transparent;
+            color: white;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+        }
+        
+        .img-container .btn:hover {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="img-container">
+        <img src="https://cdn.educba.com/academy/wp-content/uploads/2020/04/DIGITAL-MARKETING-MASTERS-DIGITAL-MARKETING.png" alt="Digital Marketing Master Image">
+        <button class="btn" onclick="window.open('https://www.educba.com/digital-marketing-masters-course/')">Digital Marketing Master</button>
+    </div>
+</body>
